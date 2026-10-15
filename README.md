@@ -35,7 +35,7 @@ Make sure Python is installed on your computer.
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/AidaHaghdadi/Dice-rooling-game
 ```
 
 Navigate to the project directory:
