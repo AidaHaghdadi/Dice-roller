@@ -1,5 +1,6 @@
 import random
 
+counter = 0
 while True:
     user_selection = input("Roll the dice? (y/n): ").lower()
 
@@ -13,6 +14,7 @@ while True:
             
             dice_nums_list = []
             if user_input >= 1:
+                counter += 1
                 for i in range(user_input):
                     dice_roll = random.randint(1, 6)
                     dice_nums_list.append(dice_roll)
@@ -23,6 +25,7 @@ while True:
 
     elif user_selection == 'n':
         print("Thank you for playing!")
+        print(f"You rolled the dice {counter} times.")
         break
 
     else:
